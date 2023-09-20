@@ -1,0 +1,64 @@
+/* Copyright 2023 Kaya Sertel. All Rights Reserved. */
+
+body {
+	margin: 0;
+	background-color: #f1f1f1;
+	color: white;
+	font-family: Atkinson Hyperlegible, sans-serif;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+html body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");*/
+
+/* width */
+::-webkit-scrollbar {
+	display: block;
+	position: relative;
+	right: 2px;
+	border-radius: 8px;
+	border: solid  black 2px;
+	width: 14.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 2px;
+	background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border: solid #f1f1f1 3.5px;
+	border-radius: 8px;
+	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+
+
+.buttons_outer_div {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.direction_buttons {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.direction_buttons:hover {
+	color: #2C3B05;
+}
